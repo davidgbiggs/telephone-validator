@@ -1,7 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Phone # Validator</title>
+    <meta
+      name="description"
+      content="A small web-based telephone number validator."
+    />
+    <meta
+      name="keywords"
+      content="Telephone, Number, FreeCodeCamp, HTML, CSS, David Biggs, Javascript, Web developer"
+    />
+    <meta name="author" content="David Biggs" />
+    <link
+      href="https://cdn.freecodecamp.org/universal/favicons/android-chrome-192x192.png"
+      rel="android-chrome"
+      sizes="192x192"
+    />
+    <link
+      href="https://cdn.freecodecamp.org/universal/favicons/android-chrome-384x384.png"
+      rel="android-chrome"
+      sizes="384x384"
+    />
+    <link
+      href="https://cdn.freecodecamp.org/universal/favicons/site.webmanifest"
+      rel="manifest"
+    />
+    <link
+      href="https://cdn.freecodecamp.org/universal/favicons/apple-touch-icon.png"
+      rel="apple-touch-icon"
+      sizes="180x180"
+    />
+    <link
+      href="https://cdn.freecodecamp.org/universal/favicons/favicon-16x16.png"
+      rel="favicon"
+      sizes="16x16"
+    />
+    <link
+      href="https://cdn.freecodecamp.org/universal/favicons/favicon-32x32.png"
+      rel="favicon"
+      sizes="32x32"
+    />
+    <link
+      href="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
+      rel="icon"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Phone # Checker</title>
+    <script src="./index.js" async></script>
   </head>
-  <body></body>
+  <body>
+    <div id="input-container">
+      <h1><label for="tp-input">Phone # Checker</label></h1>
+      <form id="tp-form" onsubmit="return false">
+        <input id="tp-input" type="text" autocomplete="off" />
+      </form>
+      <p id="tp-result">Press tab... or tap the box.</p>
+    </div>
+    <footer>
+      <span
+        ><small
+          >Programmed and designed by
+          <a href="https://davidgbiggs.com">David Biggs</a>.
+          <a href="https://github.com/davidgbiggs/telephone-validator"
+            >See the code here</a
+          >.</small
+        ></span
+      >
+    </footer>
+  </body>
 </html>
